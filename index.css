@@ -46,3 +46,12 @@ div.format {
   padding: 30;
   margin-bottom: 30;
 }
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  background-color: beige;
+}
+button.logout {
+  font-weight: bold;
+}
