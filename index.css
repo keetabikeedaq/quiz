@@ -1,0 +1,48 @@
+body {
+  background: white;
+  margin-left: 50;
+  margin-right: 50;
+}
+p#answer {
+  color: black;
+  font-weight: bold;
+}
+p#instruct,
+p#answerTwo,
+p#answerThree,
+p#answerFour,
+p#answerFive {
+  color: black;
+  font-weight: bold;
+}
+input {
+  width: 60px;
+  border-radius: 50px;
+}
+
+div.options {
+  list-style-type: lower-alpha;
+}
+div.optionTwo,
+div.optionThree,
+div.optionFour,
+div.optionFive {
+  list-style-type: lower-alpha;
+}
+
+button {
+  border-radius: 15px;
+}
+h1 {
+  text-align: center;
+  color: black;
+}
+
+div.format {
+  background-image: linear-gradient(pink, lightBlue);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.644);
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 30;
+  margin-bottom: 30;
+}
